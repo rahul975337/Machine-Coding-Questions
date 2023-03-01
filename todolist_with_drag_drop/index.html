@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">TODO</p>
+      <hr style="width: 100%" />
+      <div class="list_container">
+        <div class="add_todo">
+          <input type="text" class="todo_input" placeholder="Add a TODO" />
+          <button class="todo_button">Add Todo</button>
+        </div>
+
+        <div draggable="true" class="list_item">
+          <p>DEV</p>
+        </div>
+        <div draggable="true" class="list_item">
+          <p>SYSTEM DESIGN</p>
+        </div>
+        <div draggable="true" class="list_item">
+          <p>SCALER</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="title">PROGRESS</p>
+      <hr style="width: 100%" />
+      <div class="list_container"></div>
+    </div>
+    <div class="container">
+      <p class="title">COMPLETED</p>
+      <hr style="width: 100%" />
+      <div class="list_container"></div>
+    </div>
+  </body>
+</html>
